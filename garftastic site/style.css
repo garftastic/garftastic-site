@@ -1,0 +1,32 @@
+background {
+
+}
+
+#garftastic {
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+}
+
+#moreinfo {
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+}
+
+#digicam {
+  position: relative;
+  width: 40em;
+  height: 25em;
+
+  transform: rotate(15deg);
+}
+
+#sketchbook {
+    width: 50em;
+    height: 45em;
+    transform: rotate(10deg);
+    
+  position: absolute;
+  top: 15em;
+  left: 40em; 
+
+}
