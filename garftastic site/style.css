@@ -1,21 +1,20 @@
-background {
 
-}
-
-#garftastic {
+#text {
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 text-align: center;
 }
 
 #moreinfo {
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-text-align: center;
+  position: relative; 
+  left: 50px;
+  top: -20px;
 }
 
 #digicam {
   position: relative;
   width: 40em;
   height: 25em;
+  top: -5em;
 
   transform: rotate(15deg);
 }
@@ -26,7 +25,19 @@ text-align: center;
     transform: rotate(10deg);
     
   position: absolute;
-  top: 15em;
-  left: 40em; 
+  top: 2em;
+  left: 29em; 
 
+}
+
+#gallery {
+  width: 20em;
+  height: 8ßem;
+  display: inline-block;
+  border: 1px solid hsl(0, 0%, 60%);
+  margin: 5px;
+}
+
+#gallery:hover{
+  border:1px hsl(0, 0%, 0%)
 }
